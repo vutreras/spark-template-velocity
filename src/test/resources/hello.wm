@@ -1,3 +1,2 @@
 Hello ${hello}!
-<br/>
 Hello ${person.Name}!
