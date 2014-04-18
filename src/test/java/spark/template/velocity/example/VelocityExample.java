@@ -34,7 +34,7 @@ public final class VelocityExample {
         get(new VelocityRoute("/hello") {
             @Override
             public Object handle(final Request request, final Response response) {
-                Map<String, Object> model = new HashMap<>();
+                Map<String, Object> model = new HashMap<String, Object>();
                 model.put("hello", "Velocity World");
                 model.put("person", new Person("Foobar"));
                 
