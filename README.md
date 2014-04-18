@@ -1,4 +1,4 @@
-spark-template-velocity 
+spark-template-velocity (Added support for Java 6)
 ==============================================
 
 How to use the Apache Velocity template route for Spark example:
